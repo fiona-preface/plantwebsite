@@ -1,0 +1,248 @@
+body{
+	font-family: 'Nothing You Could Do', cursive;
+	background-color: lightcyan;
+}
+
+#banner{
+	width: 100%;
+}
+
+#highlightBar > img{
+	width: 80%;
+	border-radius: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+
+#logo {
+	width: 25%;
+}
+
+#loginIcon {
+	width: 4%;
+}
+
+#menuIcon {
+	width: 2%;
+}
+
+#title{
+	font-size: 500%;
+}
+
+#button-text{
+	font-size: 400%;
+	text-align: center;
+}
+
+h2{
+	font-size: 260%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.plants{
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px
+}
+
+h6{
+	font-size: 150%;
+	color: black;
+}
+
+p{
+	color: black;
+	font-size: 150%;
+}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 150%;
+}
+
+/******************** CSS POSITIONING AND FLEX BOX ********************/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#banner{
+	position: relative;
+}
+
+#logo, #loginIcon, #menuIcon, #topBanner > h1, #topBanner > h2{
+	position: absolute;
+}
+
+#logo{
+	transform: translate(1050px, 10px);
+}
+
+#title{
+	transform: translate(10px, 700px);
+	padding: 20px;
+}
+
+#menuIcon {
+	transform: translate(-1400px, 20px);
+	padding: 10px;
+}
+
+#loginIcon{
+	transform: translate(-1450px, 12.5px);
+	padding: 10px;
+}
+
+#topBanner > h2{
+	transform: translate(600px, 450px);
+	background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	font-size: 350%;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2{
+	margin-left: 40px;
+	padding: 10px;
+	padding-top: 10px;
+}
+
+#highlightBar{
+	display: flex;
+}
+
+#highlightBar > img{
+	position: relative;
+	justify-content: center;
+}
+
+#highlightBar > h2{
+	position: absolute;
+	transform: translate(900px, 80px);
+}
+
+#highlightBar > p{
+	position: absolute;
+	transform: translate(900px, 150px);
+}
+
+#highlightBar > h6{
+	position: absolute;
+	transform: translate(900px, 250px);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 150%;
+}
+
+#cards2{
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+}
+
+#navigationMenu{
+	display: flex;
+	justify-content: space-evenly;
+	position
+}
+
+#navigationMenu > ul{
+	position: relative;
+	padding: 30px;
+	transform: translate(800px, 1000px);
+}
+
+#navigationMenuTitle{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**{
+	margin: 0px;
+	padding: 0px;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#banner {
+	position: relative;
+}
+
+#logo, #topBanner > div, #topBanner > h1, #topBanner > h2 {
+	position: absolute;
+}
+
+#logo {
+	transform: translate(1050px, 30px);
+}
+
+#topBanner > div {
+	transform: translate(42%, 60%);
+}
+
+#menuIcon {
+	transform: translate(0%, -20%);
+}
+
+#topBanner > h1 {
+	transform: translate(25%, 150%);
+}
+
+#topBanner > h2 {
+	transform: translate(550px, 500px);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 350%;
+}
+
+h2{
+	padding: 20px;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+*/
+
+
+
+
+
+
+
+
+
+
